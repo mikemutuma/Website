@@ -1,0 +1,104 @@
+
+
+#blinker {
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+
+    animation-name: blinker;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@-moz-keyframes blinker {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+
+
+#centering{
+    width:900px;
+
+    background-color: white;
+    padding-top:10px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom: 10px;
+    text-align: center;
+
+
+
+}
+
+#centering
+{
+background-image: linear-gradient(to right,#2fff37,#baff17,#ffff28);
+}
+#blinker
+{
+color: #ff19e6;
+}
+.a
+{
+    height:250px;
+    width: 450px;
+}
+.b
+{
+    height: 250px;
+    width: 450px;
+}
+a
+{
+    background-color: #1c11ff;
+    color: #ff1f2b;
+    text-decoration: none;
+    border: 2px solid #fff018;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+a:hover
+{
+background-color: #ff2618;
+    color: #272cff;
+}
+@font-face
+{
+    font-family: maureen;
+    src: url("style/Tay.ttf");
+}
+@font-face
+{
+ font-family: mike;
+    src: url("style/Keith.ttf");
+}
+h1
+{
+    font-family: maureen;
+}
+p
+{
+ font-family: mike;
+}
